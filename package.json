@@ -1,0 +1,17 @@
+{
+  "name": "platform-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -c-1 ./public",
+    "poc": "openfin -l -c poc-app.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "openfin-cli": "^3.0.2"
+  }
+}
